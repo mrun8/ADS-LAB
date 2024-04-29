@@ -1,0 +1,17 @@
+-- Create the database
+CREATE DATABASE mrun;
+
+
+-- Switch to the database
+USE mrun;
+
+-- Insert a record into the 'Student' table
+INSERT INTO Student VALUES (21510062, 'mrun', 'Mrunali', 'CSE', '12');
+INSERT INTO Student VALUES (21510066, 'mru', 'Manasi', 'CSE', '12');
+INSERT INTO Student VALUES (21510067, 'msd', 'Anagha', 'CSE', '12');
+
+-- Select all records from the 'Student' table
+Select * from Instructor;
+INSERT INTO  Instructor VALUES(1, 'abc', 'John Doe', 'CSE', 80000);
+INSERT INTO  Instructor VALUES(2, 'abc', 'Kevin Tai', 'CSE', 65000);
+
